@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نورے (NOORe) - Elegant Abayas for Modern Women</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>نورے</h1>
+                <span class="logo-subtitle">NOORe</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Shop / Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#signup" class="nav-link signup-btn">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#login" class="nav-link login-btn">Sign In</a>
+                </li> -->
+            </ul>
+            
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Elegant Abayas for the Modern Muslim Woman</h1>
+            <p class="hero-subtitle">
+              Discover our curated collection of premium abayas that blend tradition with contemporary style
+            </p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary">Shop Now</a>
+              <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Free & Fast Shipping</h3>
+                    <p>Free shipping on all orders above Rs. 8,000</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Easy Exchanges</h3>
+                    <p>Hassle-free exchanges within 15 days</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Secure Payment</h3>
+                    <p>Multiple payment methods available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Premium Abaya Collection</h2>
+                <p>Handpicked designs that celebrate modesty and elegance</p>
+            </div>
+            
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">All Abayas</button>
+                <button class="filter-btn" data-filter="basic">Basic Everyday</button>
+                <button class="filter-btn" data-filter="formal">Formal</button>
+                <button class="filter-btn" data-filter="festive">Festive</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="basic" 
+                     data-product-id="1"
+                     data-product-name="Classic Black Abaya"
+                     data-product-description="Timeless elegance in premium fabric with comfortable fit and modern design"
+                     data-product-price="6999"
+                     data-product-original-price="8500"
+                     data-product-image="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\clssic blk2.jpg"
+                     data-product-stock="8">
+                    <div class="product-image">
+                        <img src="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\clssic blk2.jpg" alt="Classic Black Abaya">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Classic Black Abaya</h3>
+                        <p class="product-description">Timeless elegance in premium fabric</p>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 6,999</span>
+                            <span class="original-price">Rs. 8,500</span>
+                        </div>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\em formal abaya.jpg" alt="Embroidered Formal Abaya">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Embroidered Formal Abaya</h3>
+                        <p class="product-description">Intricate embroidery for special occasions</p>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 12,999</span>
+                            <span class="original-price">Rs. 15,000</span>
+                        </div>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-category="festive">
+                    <div class="product-image">
+                        <img src="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\Festive Gold Abaya.jpg" alt="Festive Gold Abaya">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Festive Gold Abaya</h3>
+                        <p class="product-description">Luxurious gold accents for celebrations</p>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 9,999</span>
+                            <span class="original-price">Rs. 12,000</span>
+                        </div>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-category="basic">
+                    <div class="product-image">
+                        <img src="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\Navy Blue Abaya.jpg" alt="Navy Blue Abaya">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Navy Blue Abaya</h3>
+                        <p class="product-description">Versatile navy for everyday elegance</p>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 7,499</span>
+                            <span class="original-price">Rs. 9,000</span>
+                        </div>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-category="formal">
+                    <div class="product-image">
+                        <img src="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\Silk Formal Abaya.jpg" alt="Silk Formal Abaya">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Silk Formal Abaya</h3>
+                        <p class="product-description">Premium silk for sophisticated occasions</p>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 14,999</span>
+                            <span class="original-price">Rs. 18,000</span>
+                        </div>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-category="festive">
+                    <div class="product-image">
+                        <img src="C:\Users\gmaen\OneDrive\Desktop\Project\frontend\Bridal Abaya.jpg" alt="Bridal Abaya">
+                        <div class="product-overlay">
+                            <button class="btn btn-primary quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Bridal Abaya</h3>
+                        <p class="product-description">Exquisite design for your special day</p>
+                        <div class="product-price">
+                            <span class="current-price">Rs. 19,999</span>
+                            <span class="original-price">Rs. 25,000</span>
+                        </div>
+                        <button class="btn btn-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About نورے (NOORe)</h2>
+                    <p>We are passionate about creating beautiful, modest fashion that empowers Muslim women to express their style while maintaining their values. Our abayas are carefully crafted with attention to detail, using premium fabrics and contemporary designs.</p>
+                    <p>Every piece in our collection is designed to make you feel confident, elegant, and comfortable in your own skin. We believe that modesty and style go hand in hand.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Designs</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="About NOORe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real feedback from our valued customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The quality of the abayas is amazing! They are so comfortable and beautifully made. I love how elegant I feel wearing them."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Fatima A.</h4>
+                        <span>Karachi</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Great prices for such high-quality products. The fabric is premium and the stitching is perfect. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Sarah M.</h4>
+                        <span>Lahore</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The customer service is excellent and delivery was super fast. The abaya fits perfectly and looks exactly like the pictures."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Hina K.</h4>
+                        <span>Islamabad</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>نورے</h3>
+                        <span>NOORe</span>
+                    </div>
+                    <p>Elegant abayas for the modern Muslim woman. Quality, style, and modesty in every piece.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +92 3379826946</p>
+                        <p><i class="fas fa-envelope"></i> info@noore.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 نورے (NOORe). All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fas fa-credit-card"></i>
+                    <i class="fas fa-university"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
