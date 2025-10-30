@@ -135,7 +135,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("./abay.jpg.jpg"); 
+    background-image: url("images/abay.jpg.jpg"); 
     background-size: cover; /* fill the whole section */
     background-position: center;
     background-repeat: no-repeat;
